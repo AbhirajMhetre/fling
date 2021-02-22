@@ -1,0 +1,18 @@
+.profiles-list-img {
+  width: 300px;
+  height: 300px;
+}
+
+.profile {
+  height: auto !important;
+  max-height: 350px;
+}
+
+.profile-data .view-profiles-btn {
+  bottom: 10px;
+  position: absolute;
+}
+.profile-data {
+  height: 220px;
+  position: relative;
+}
