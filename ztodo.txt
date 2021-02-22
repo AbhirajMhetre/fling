@@ -1,0 +1,7 @@
+heroku create //creates an app with link
+git init //create a repo
+git add . //add files to git
+git commit -m "first commit" //comiit files
+heroku git:remote -a arcane-waters-43082 //set the app as git remote replace "arcane-waters-43082" by your app name link
+
+git push heroku master
