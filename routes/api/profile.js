@@ -297,15 +297,8 @@ router.get('/', auth, async (req, res) => {
           }
           
           //When user tries to load their own profile, cant compute compability for them
-          if(OneProfileuserid == requserid){
-            OneCouple = {
-              user1: OneProfileuserid,
-              user2: requserid,
-              CompatibilityPercentage: 100
-            }     
-            retObj.push({OneProfile,OneCouple});
+          if(OneProfileuserid != requserid){
            
-          }else{
            async function GetCouple (){
 
               Couple = await compatibility.findOne({
@@ -314,7 +307,7 @@ router.get('/', auth, async (req, res) => {
 
                 retObj.push({OneProfile,OneCouple});
                 
-                if(retObj.length == profiles.length){
+                if(retObj.length == profiles.length - 1){
    
                   function compare( a, b ) {
                     if ( a.OneCouple.CompatibilityPercentage < b.OneCouple.CompatibilityPercentage ){
