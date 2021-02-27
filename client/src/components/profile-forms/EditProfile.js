@@ -165,7 +165,7 @@ const EditProfile = ({
         </div>
 
         <div className='form-group'>
-        <label for="genderInterestedIn">Select Gender you are attracted to</label>
+        <label htmlFor="genderInterestedIn">Select Gender you are attracted to</label>
           <select name='genderInterestedIn' value={genderInterestedIn} onChange={e => onChange(e)}>
             <option value="none"></option>
             <option value='Male'>Male</option>
@@ -215,7 +215,7 @@ const EditProfile = ({
         </div>
 
         <div className='form-group'>
-        <label for="fieldOfStudy">Select your field of study</label>
+        <label htmlFor="fieldOfStudy">Select your field of study</label>
           <select name='fieldOfStudy' value={fieldOfStudy} onChange={e => onChange(e)}>
             <option value="none"></option>
             <option value='Engineering'>Engineering</option>
@@ -226,7 +226,7 @@ const EditProfile = ({
         </div>
 
         <div className='form-group'>
-        <label for="favoritesitecom">* Select the best sitecom according to you:</label>
+        <label htmlFor="favoritesitecom">* Select the best sitecom according to you:</label>
           <select name='favoritesitecom' value={favoritesitecom} onChange={e => onChange(e)}>
             <option value="none"></option>
             <option value='The Office'>The Office</option>
@@ -239,7 +239,7 @@ const EditProfile = ({
         </div>
 
         <div className='form-group'>
-        <option for="favoriteseries">Select the best series according to you:</option>
+        <option htmlFor="favoriteseries">Select the best series according to you:</option>
           <select name='favoriteseries' value={favoriteseries} onChange={e => onChange(e)}>
             <option value="none"></option>
             <option value='Breaking Bad'>Breaking Bad</option>
@@ -250,7 +250,7 @@ const EditProfile = ({
         </div>
 
         <div className='form-group'>
-        <label for="virginity">So what's your status on sex:</label>
+        <label htmlFor="virginity">So what's your status on sex:</label>
           <select name='virginity' value={virginity} onChange={e => onChange(e)}>
             <option value="none"></option>
             <option value='Virgin'>Virgin</option>
@@ -263,7 +263,7 @@ const EditProfile = ({
         </div>
 
         <div className='form-group'>
-        <label for="dogOrCat">Are you a Dog person or a cat person:</label>
+        <label htmlFor="dogOrCat">Are you a Dog person or a cat person:</label>
           <select name='dogOrCat' value={dogOrCat} onChange={e => onChange(e)}>
             <option value="none"></option>
             <option value='Dog person'>Ofcourse Dogs!</option>
@@ -273,7 +273,7 @@ const EditProfile = ({
         </div>
 
         <div className='form-group'>
-        <label for="whatVert">Introvert or Extrovert:</label>
+        <label htmlFor="whatVert">Introvert or Extrovert:</label>
           <select name='whatVert' value={whatVert} onChange={e => onChange(e)}>
             <option value="none"></option>
             <option value='Introvert'>Introvert</option>
@@ -286,7 +286,7 @@ const EditProfile = ({
         </div>
 
         <div className='form-group'>
-        <label for="politics">Do you follow politics:</label>
+        <label htmlFor="politics">Do you follow politics:</label>
           <select name='politics' value={politics} onChange={e => onChange(e)}>
             <option value="none"></option>
             <option value='Doesnt care about politics'>Don't care</option>
@@ -296,7 +296,7 @@ const EditProfile = ({
         </div>
 
         <div className='form-group'>
-        <label for="religion">How religious are you:</label>
+        <label htmlFor="religion">How religious are you:</label>
           <select name='religion' value={religion} onChange={e => onChange(e)}>
           <option value='none'></option>
           <option value='Atheist'>Atheist</option>
@@ -307,7 +307,7 @@ const EditProfile = ({
 
 
         <div className='form-group'>
-        <label for="drinker">How often do you drink:</label>
+        <label htmlFor="drinker">How often do you drink:</label>
           <select name='drinker' value={drinker} onChange={e => onChange(e)}>
           <option value="none"></option>
             <option value='Less than thrice till now'>Less than thrice till now</option>
@@ -320,7 +320,7 @@ const EditProfile = ({
         </div>
 
         <div className='form-group'>
-        <label for="smoker">How often do you smoke:</label>
+        <label htmlFor="smoker">How often do you smoke:</label>
           <select name='smoker' value={smoker} onChange={e => onChange(e)}>
             <option value="none"></option>
             <option value='Never tried smoking'>Never tried</option>
@@ -345,7 +345,7 @@ const EditProfile = ({
         </div>
 
         <div className='form-group'>
-        <label for="poessesive">How poessesive are you based on your past relations:</label>
+        <label htmlFor="poessesive">How poessesive are you based on your past relations:</label>
           <select name='poessesive' value={poessesive} onChange={e => onChange(e)}>
             <option value="none"></option>
             <option value='Quite poessesive'>Very much</option>
@@ -358,7 +358,7 @@ const EditProfile = ({
         </div>
 
         <div className='form-group'>
-        <label for="chatOrCall">What would you prefer:</label>
+        <label htmlFor="chatOrCall">What would you prefer:</label>
           <select name='chatOrCall' value={chatOrCall} onChange={e => onChange(e)}>
             <option value="none"></option>
             <option value='Call person'>Night call</option>
@@ -371,7 +371,7 @@ const EditProfile = ({
         </div>
 
         <div className='form-group'>
-        <label for="reading">Do you read books:</label>
+        <label htmlFor="reading">Do you read books:</label>
           <select name='reading' value={reading} onChange={e => onChange(e)}>
             <option></option>
             <option value='Bookworm'>Yes, I'm a bookworm</option>
@@ -384,7 +384,7 @@ const EditProfile = ({
         </div>
 
         <div className='form-group'>
-        <label for="travel">Ideal holiday destination:</label>
+        <label htmlFor="travel">Ideal holiday destination:</label>
           <select name='travel' value={travel} onChange={e => onChange(e)}>
             <option value="none"></option>
             <option value='Trekking in Himalaya'>Trekking in Himalaya</option>
@@ -397,7 +397,7 @@ const EditProfile = ({
         </div>
 
         <div className='form-group'>
-        <label for="reading">Would like a date and:</label>
+        <label htmlFor="reading">Would like a date and:</label>
           <select name='spendNight' value={spendNight} onChange={e => onChange(e)}>
             <option></option>
             <option value='Party night at clubs'>Party at clubs</option>
@@ -413,7 +413,7 @@ const EditProfile = ({
         
 
         <div className='form-group'>
-        <label for="height">Enter your height</label>
+        <label htmlFor="height">Enter your height</label>
           <input
             type='number'
             placeholder='Your height in centimetres'
@@ -430,7 +430,7 @@ const EditProfile = ({
 
 
         <div className='form-group'>
-        <label for="location">Where do you live:</label>
+        <label htmlFor="location">Where do you live:</label>
           <input
             type='text'
             placeholder='Location'
@@ -444,7 +444,7 @@ const EditProfile = ({
         </div>
 
         <div className='form-group'>
-        <label for="reading">What goes in your Bio:</label>
+        <label htmlFor="reading">What goes in your Bio:</label>
           <textarea
             placeholder='If you can’t handle my quarantine hair, you don’t deserve me when this is all over'
             name='bio'

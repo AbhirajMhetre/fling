@@ -38,7 +38,7 @@ if(isAuthenticated){
                       <h3 className="login-heading mb-4">Welcome back!</h3>
                       <form onSubmit={onSubmit}>
                         <div className="form-label-group">
-                          <input value={email} name="email" onChange={onChange} type="email" id="inputEmail" className="form-control" placeholder="Email address" required autofocus />
+                          <input value={email} name="email" onChange={onChange} type="email" id="inputEmail" className="form-control" placeholder="Email address" required autoFocus />
                           <label htmlFor="inputEmail">Email address</label>
                         </div>
                         <div className="form-label-group">

@@ -61,8 +61,10 @@ img {
 
 .large {
   font-size: 3rem;
+  font-weight: 500;
   line-height: 1.2;
   margin-bottom: 1rem;
+  color: #181a48;
 }
 
 .lead {
@@ -328,10 +330,12 @@ button {
   color: #fff;
   padding: 0.45rem;
   margin: 0 0.25rem;
+  transition: transform 0.5s ease;
 }
 
 .navbar a:hover {
-  color: var(--primary-color);
+  color: black;
+  transform: scale(1.2);
 }
 
 .navbar .welcome span {
